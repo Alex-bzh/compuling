@@ -2,6 +2,7 @@
 #-*- coding: utf-8 -*-
 
 import urllib.request
+from bs4 import BeautifulSoup
 
 def get_HTML_from_URL(url):
     """
@@ -12,3 +13,11 @@ def get_HTML_from_URL(url):
     with urllib.request.urlopen(url) as fichier:
         html = fichier.read().decode('utf-8')
     return html
+
+def parse_HTML_by_class(html, selector):
+    """
+        Extrait des balises d’une page HTML grâce à un sélecteur CSS.
+    """
+    soup = BeautifulSoup(html, 'html.parser')
+    tags = soup.select(selector)
+    return tags
