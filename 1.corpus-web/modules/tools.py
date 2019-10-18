@@ -10,7 +10,7 @@ def get_HTML_from_URL(url):
     """
     headers = { 'User-agent' : 'HTML extractor (Alexandre Roulois)' }
     request = urllib.request.Request(url, headers=headers)
-    with urllib.request.urlopen(url) as fichier:
+    with urllib.request.urlopen(request) as fichier:
         html = fichier.read().decode('utf-8')
     return html
 
