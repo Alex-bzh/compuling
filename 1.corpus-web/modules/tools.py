@@ -4,7 +4,7 @@
 import urllib.request
 from bs4 import BeautifulSoup
 
-def get_HTML_from_URL(url, charset='utf-8'):
+def get_html_from_url(url, charset='utf-8'):
     """Extracts the HTML code from a single URL.
 
     Keyword arguments:
@@ -17,7 +17,7 @@ def get_HTML_from_URL(url, charset='utf-8'):
         html = fichier.read().decode(charset)
     return html
 
-def parse_HTML_by_class(html, selector):
+def parse_html_by_class(html, selector):
     """Extracts tags from HTML whith CSS selector.
     
     Keyword arguments:
