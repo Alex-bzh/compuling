@@ -1,6 +1,9 @@
 #!/usr/bin/env python
 #-*- coding: utf-8 -*-
 
+#
+#   Modules to import
+#
 import urllib.request
 from bs4 import BeautifulSoup
 
