@@ -1,0 +1,6 @@
+name: compuling-environment
+channels:
+  - conda-forge
+dependencies:
+  - beautifulsoup4
+  - rise
