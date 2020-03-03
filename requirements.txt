@@ -1,3 +1,4 @@
 beautifulsoup4==4.8.1
 rise
 jupyter_contrib_nbextensions==0.5.1
+jupyter_nbextensions_configurator==0.4.1
