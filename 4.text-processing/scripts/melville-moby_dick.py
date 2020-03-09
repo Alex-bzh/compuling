@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 #-*- coding: utf-8 -*-
 
-import nltk, unicodedata, string
+import nltk, string
 from nltk.corpus import gutenberg, stopwords
 
 def occurrences(words):
     """Builds up a dictionary of words and the count of their
-    occurrences. Ex : {'word': 3}
+    occurrences. Ex : {'boat': 34, 'whale': 55}
     
     Keyword argument:
     words -- list of tokens
