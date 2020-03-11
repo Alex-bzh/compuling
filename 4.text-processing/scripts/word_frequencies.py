@@ -8,6 +8,11 @@ from nltk.tokenize import RegexpTokenizer
 from nltk.corpus import stopwords
 
 def text_to_words(path):
+    """Splits a text into words.
+
+    Keyword argument:
+    path -- path to a file to parse
+    """
 
     with open(path) as file:
         text = file.read()
@@ -59,10 +64,14 @@ def sorted_fr(iterable):
     result = sorted(result, key=lambda this:this[1], reverse=True)
     return result
 
-if __name__ == "__main__":
+def main():
+    """Triggers the gathering of word frequencies."""
 
     words = text_to_words('../data/dormeur-du-val.txt')
     occurrences = occurrences(words)
     words_sorted = sorted_fr(occurrences)
 
     print(words_sorted)
+
+if __name__ == "__main__":
+    main()
