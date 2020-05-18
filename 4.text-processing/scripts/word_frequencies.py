@@ -34,7 +34,7 @@ def remove_accent_mark(word):
         word_norm += char_norm[0]
     return word_norm
 
-def occurrences(words):
+def get_occurrences(words):
     """Builds up a dictionary of words and the count of their
     occurrences.
     
@@ -68,7 +68,7 @@ def main():
     """Triggers the gathering of word frequencies."""
 
     words = text_to_words('../data/dormeur-du-val.txt')
-    occurrences = occurrences(words)
+    occurrences = get_occurrences(words)
     words_sorted = sorted_fr(occurrences)
 
     print(words_sorted)
