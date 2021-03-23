@@ -8,4 +8,4 @@ dependencies:
   - pip
   - rise
   - pip:
-    - FrenchLefffLemmatizer
+    - git+https://github.com/ClaudeCoulombe/FrenchLefffLemmatizer.git
