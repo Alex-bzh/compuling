@@ -5,4 +5,7 @@ dependencies:
   - beautifulsoup4
   - matplotlib
   - nltk==3.4.5
+  - pip
   - rise
+  - pip:
+    - FrenchLefffLemmatizer
