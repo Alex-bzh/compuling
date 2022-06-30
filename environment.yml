@@ -8,6 +8,6 @@ dependencies:
   - nltk==3.4.5
   - pip
   - rise
-  - spacy==3.3.1
+  - spacy==3.3.0
   - pip:
     - git+https://github.com/ClaudeCoulombe/FrenchLefffLemmatizer.git
