@@ -5,8 +5,8 @@ dependencies:
   - beautifulsoup4
   - chardet
   - matplotlib
-  - nltk==3.4.5
+  - nltk
   - pip
-  - rise
+  - spacy
   - pip:
     - git+https://github.com/ClaudeCoulombe/FrenchLefffLemmatizer.git
