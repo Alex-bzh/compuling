@@ -11,5 +11,3 @@ dependencies:
   - spacy==3.3.1
   - pip:
     - git+https://github.com/ClaudeCoulombe/FrenchLefffLemmatizer.git
-  - script:
-    - python -m spacy download fr_core_news_sm
