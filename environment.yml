@@ -1,4 +1,4 @@
-name: compuling-environment
+name: compuling
 channels:
   - conda-forge
 dependencies:
@@ -6,6 +6,7 @@ dependencies:
   - chardet
   - matplotlib
   - nltk
+  - numpy
   - pip
   - seaborn
   - spacy
