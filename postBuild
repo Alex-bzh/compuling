@@ -27,8 +27,4 @@ wget https://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/data/install-tagge
 # install
 sh install-tagger.sh
 
-# append cmd and bin to PATH variable
-export PATH=$PATH:$HOME/5.pos-tagging/TreeTagger/cmd
-export PATH=$PATH:$HOME/5.pos-tagging/TreeTagger/bin
-
 cd ~/
