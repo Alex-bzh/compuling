@@ -1,13 +1,16 @@
-name: compuling
+name: tal
 channels:
   - conda-forge
 dependencies:
   - beautifulsoup4
   - chardet
+  - jupyterlab
+  - jupyterlab-latex
   - matplotlib
   - nltk
   - numpy
   - pip
+  - python=3.10
   - seaborn
   - spacy
   - pip:
