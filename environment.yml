@@ -8,8 +8,10 @@ dependencies:
   - jupyterlab-latex
   - matplotlib
   - nltk
+  - numpy
   - pip
   - python=3.10
+  - seaborn
   - spacy
   - pip:
     - git+https://github.com/ClaudeCoulombe/FrenchLefffLemmatizer.git
