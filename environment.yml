@@ -1,12 +1,15 @@
-name: compuling-environment
+name: tal
 channels:
   - conda-forge
 dependencies:
   - beautifulsoup4
   - chardet
+  - jupyterlab
+  - jupyterlab-latex
   - matplotlib
   - nltk
   - pip
+  - python=3.10
   - spacy
   - pip:
     - git+https://github.com/ClaudeCoulombe/FrenchLefffLemmatizer.git
