@@ -11,6 +11,7 @@ dependencies:
   - numpy
   - pip
   - python=3.10
+  - scikit-learn
   - seaborn
   - spacy
   - pip:
