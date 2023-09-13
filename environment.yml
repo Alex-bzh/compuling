@@ -1,6 +1,7 @@
 name: compuling
 channels:
   - conda-forge
+  - defaults
 dependencies:
   - beautifulsoup4
   - chardet
@@ -10,10 +11,13 @@ dependencies:
   - matplotlib
   - nltk
   - numpy
+  - pandas
   - pip
   - python=3.10
   - scikit-learn
+  - scipy
   - seaborn
   - spacy
+  - tabulate=0.9.0
   - pip:
     - git+https://github.com/ClaudeCoulombe/FrenchLefffLemmatizer.git
