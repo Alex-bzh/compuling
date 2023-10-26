@@ -15,5 +15,6 @@ dependencies:
   - scikit-learn
   - seaborn
   - spacy
+  - wordcloud
   - pip:
     - git+https://github.com/ClaudeCoulombe/FrenchLefffLemmatizer.git
