@@ -13,6 +13,7 @@ dependencies:
   - numpy
   - pandas
   - pip
+  - pillow
   - python=3.10
   - scikit-learn
   - scipy
