@@ -1,1 +1,4 @@
+ascii
+recode
+wget
 xxd
