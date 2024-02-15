@@ -105,3 +105,7 @@ venv.bak/
 
 # MacOS
 .DS_Store
+
+# Pixi
+pixi.lock
+.pixi
