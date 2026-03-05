@@ -1,4 +1,4 @@
-[project]
+[workspace]
 name = "Compuling"
 version = "0.1.1"
 description = "Resources to learn how to manage corpus with Python."
@@ -19,7 +19,7 @@ gensim = "~=4.3"
 jupyterlab = "~=4.1"
 jupyterlab-latex = "~=3.0"
 matplotlib = "~=3.0"
-nltk = "~=3.8"
+nltk = ">=3.9.3,<4"
 numpy = ">1.25"
 pandas = ">2.0"
 pillow = "~=10.2"
